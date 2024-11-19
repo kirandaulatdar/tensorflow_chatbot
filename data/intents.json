@@ -1,0 +1,120 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "How are you?"],
+      "responses": ["Hello!", "Hi there!", "I'm good, thank you!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Bye"],
+      "responses": ["Goodbye!", "See you later!", "Have a nice day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "I appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "What time do you close?"],
+      "responses": ["We are open from 9 AM to 5 PM.", "Our working hours are 9 to 5.", "We close at 5 PM."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "How's the weather today?", "Is it sunny?"],
+      "responses": ["I can't check the weather, but I hope it's nice!", "I don't have weather information, but I hope it's good!", "I can't provide weather updates."]
+    },
+    {
+      "tag": "services",
+      "patterns": ["Tell me about your services", "What services do you offer?", "What can you do?"],
+      "responses": [
+        "We offer clean, dry, safe and secure storage space for your valuable personal items.",
+        "Our services include a wide range of storage facilities to meet your needs with utmost care and security.",
+        "We provide household storage solutions in Bangalore, Hyderabad, Mumbai, Pune, and Chennai."
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": ["How secure is your storage?", "What security measures do you have?", "Is my stuff safe?"],
+      "responses": [
+        "Our storage facilities are equipped with 24x7 security and CCTV coverage.",
+        "We have integrated fire control and fire alarm systems to ensure the safety of your belongings.",
+        "Your items are stored on wooden pallets in clean, dry, individual, and secure storage units."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact you?", "Give me your contact details", "How do I reach you?"],
+      "responses": [
+        "You can call us at +91 8088848484.",
+        "Send us a message at info@safestorage.in.",
+        "Feel free to reach out to our business services team for further information."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["What are your prices?", "How much does storage cost?", "Tell me about your rates"],
+      "responses": [
+        "We offer low rent on storage space - only pay for the space that you need.",
+        "We have great introductory offers and provide friendly professional advice on storage rentals.",
+        "Our pricing varies based on the storage duration and the amount of space you need."
+      ]
+    },
+    {
+      "tag": "locations",
+      "patterns": ["Where are you located?", "What cities do you operate in?", "Where can I find you?"],
+      "responses": [
+        "We provide storage solutions in Bangalore, Hyderabad, Mumbai, Pune, and Chennai.",
+        "You can find our storage facilities in multiple cities across India.",
+        "Our services are available in several major cities to meet your storage needs."
+      ]
+    },
+    {
+      "tag": "household_storage",
+      "patterns": ["Tell me about household storage", "What is household storage?", "Can you store my household items?"],
+      "responses": [
+        "We offer household storage services in Bangalore, Hyderabad, Chennai, Pune, and Mumbai.",
+        "You can store your household items safely with our storage services.",
+        "Our household storage solutions are designed to keep your furniture and other items secure."
+      ]
+    },
+    {
+      "tag": "document_storage",
+      "patterns": ["Tell me about document storage", "What is document storage?", "Can you store documents?"],
+      "responses": [
+        "We provide records management document storage services for professionals and small businesses.",
+        "Our document storage solutions ensure the safe and secure storage of your official files and documents.",
+        "You can trust us with your business storage space for all your important documents."
+      ]
+    },
+    {
+      "tag": "automobile_storage",
+      "patterns": ["Tell me about automobile storage", "What is automobile storage?", "Can you store vehicles?"],
+      "responses": [
+        "We offer automobile storage solutions in Bangalore, Chennai, Pune, and Mumbai.",
+        "Your vehicle will be monitored 24x7 and kept in a rodent-proof environment.",
+        "Store your vehicles safely with us and ensure they are secure."
+      ]
+    },
+    {
+      "tag": "box_storage",
+      "patterns": ["Tell me about box storage", "What is box storage?", "Can you store boxes?"],
+      "responses": [
+        "We provide corrugated boxes in different sizes to store goods or files.",
+        "You can use our boxes to pack clothes, shoes, decorations, blankets, quilts, utensils, and more.",
+        "Our box storage solutions are perfect for keeping your items organized and safe."
+      ]
+    },
+    {
+      "tag": "lead_query",
+      "patterns": [
+        "How many leads do we have?",
+        "How many leads between 2023-01-01 and 2023-01-31?"
+      ],
+      "responses": [
+        "I will check the database for the lead information."
+      ]
+    }
+  ]    
+}
